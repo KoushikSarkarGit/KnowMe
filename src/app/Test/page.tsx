@@ -1,7 +1,7 @@
 
 export default function page() {
   return (
-    <div>
+    <div className="w-full h-full min-h-screen  ">
       test page
     </div>
   )
