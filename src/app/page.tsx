@@ -1,14 +1,13 @@
+import IntroSection from "@/components/IntroSection";
 
 
 
 export default function Home() {
   return (
     <>
-    <div className="w-100 flex items-center dark">
-
-      <div>outer page</div>
-      
-    </div>
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+    <IntroSection/>
+    </main>
     </>
   );
 }
