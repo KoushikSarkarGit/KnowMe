@@ -1,4 +1,8 @@
+import HoverCards from "@/components/HoverCards";
 import IntroSection from "@/components/IntroSection";
+import MovingCards from "@/components/MovingCards";
+import SecondarySection from "@/components/SecondarySection";
+import { StickyScrollComponent } from "@/components/StickyScrollComponent";
 
 
 
@@ -7,6 +11,10 @@ export default function Home() {
     <>
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
     <IntroSection/>
+    <SecondarySection/>
+    <StickyScrollComponent/>
+    <MovingCards/>
+    <HoverCards/>
     </main>
     </>
   );

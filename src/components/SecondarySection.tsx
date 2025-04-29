@@ -14,7 +14,7 @@ interface Course{
         
 }
 
-function FeaturedCourses() {
+function SecondarySection() {
     const featuredCourses = courseData.courses.filter((course:Course) => course.isFeatured)
 
 
@@ -55,4 +55,4 @@ function FeaturedCourses() {
   )
 }
 
-export default FeaturedCourses
+export default SecondarySection
