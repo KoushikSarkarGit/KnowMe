@@ -17,19 +17,19 @@ const  ResizableNavBar =()=> {
     
     {
       name: "Home",
-      link: "#features",
+      link: "/",
     },
     {
       name: "Projects",
-      link: "#pricing",
+      link: "/projects",
     },
     {
       name: "About Me",
-      link: "#contact",
+      link: "/aboutme",
     },
     {
       name: "Contact",
-      link: "#contact",
+      link: "/contact",
     },
   ];
 
