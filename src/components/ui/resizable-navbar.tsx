@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
+import logo from './portfoliologov3.jpg';
 import {
   motion,
   AnimatePresence,
@@ -9,6 +10,8 @@ import {
 } from "motion/react";
 
 import React, { useRef, useState } from "react";
+import BlueLine from "../BlueLine";
+
 
 
 interface NavbarProps {
@@ -138,7 +141,12 @@ export const NavItems = ({ items, className, onItemClick }: NavItemsProps) => {
               className="absolute inset-0 h-full w-full rounded-full bg-gray-100 dark:bg-neutral-800"
             />
           )}
+         
+          <div className="flex flex-col justify-center align-center">
           <span className="relative z-20">{item.name}</span>
+          <BlueLine/>
+          </div>
+          
         </a>
       ))}
     </motion.div>
@@ -237,12 +245,13 @@ export const NavbarLogo = () => {
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
       <img
-        src="https://assets.aceternity.com/logo-dark.png"
+        src= {logo.src}
         alt="logo"
+        className="rounded"
         width={30}
         height={30}
       />
-      <span className="font-medium text-black dark:text-white">Startup</span>
+      <span className="font-medium text-black dark:text-white"> Studio KS </span>
     </a>
   );
 };
