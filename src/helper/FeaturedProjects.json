@@ -1,0 +1,38 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Connectify",
+        "slug": "guitar-fundamentals",
+        "description": "Your personal space to share moments, chat in real-time, and build your own community — simple, secure, and clutter-free.",
+        "isLive": true,
+        "owner": "Koushik Sarkar",
+        "isFeatured": true,
+        "image": "./assets/connectifypic.png", 
+        "livelink": "https://connectify-fztn.onrender.com/"
+      },
+      {
+        "id": 2,
+        "title": "Jeet's Market",
+        "slug": "a-complete-ecommerce-site",
+        "description": "Discover quality products at great prices — fast shipping, secure checkout, and a seamless shopping experience. ",
+        "isLive": true,
+        "owner": "Koushik Sarkar",
+        "isFeatured": true,
+        "image": "/courses/piano.jpg",
+        "livelink": "https://jeets-market.onrender.com/" 
+      },
+      {
+        "id": 3,
+        "title": "RateMe",
+        "slug": "advanced-vocal-techniques",
+        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+        "isLive": true,
+        "owner": "Koushik Sarkar",
+        "isFeatured": true,
+        "image": "/courses/vocalist.jpg" 
+      }
+      
+    ]
+  }
+  
