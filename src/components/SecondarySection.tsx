@@ -2,7 +2,6 @@
 import Link from "next/link";
 import courseData from "../helper/FeaturedProjects.json";
 import { BackgroundGradient } from "./ui/background-gradient";
-import connectifyimg from "./assets/connectifypic.png";
 import { Button } from "./ui/moving-border";
 interface Project {
   id: number;
@@ -44,7 +43,7 @@ function SecondarySection() {
                       <div className="phover flex justify-center items-center p-4">
                         <img
                           className=" rounded-[18px]"
-                          src={connectifyimg.src}
+                          src={item.image}
                           width={400}
                           height={225}
                           alt="project image"

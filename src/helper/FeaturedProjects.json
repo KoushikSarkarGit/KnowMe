@@ -8,7 +8,7 @@
         "isLive": true,
         "owner": "Koushik Sarkar",
         "isFeatured": true,
-        "image": "./assets/connectifypic.png", 
+        "image": "/connectifypic.png", 
         "livelink": "https://connectify-fztn.onrender.com/"
       },
       {
@@ -19,7 +19,7 @@
         "isLive": true,
         "owner": "Koushik Sarkar",
         "isFeatured": true,
-        "image": "/courses/piano.jpg",
+        "image": "/jeetsmarketpic.png",
         "livelink": "https://jeets-market.onrender.com/" 
       },
       {
@@ -30,7 +30,7 @@
         "isLive": true,
         "owner": "Koushik Sarkar",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "/dummypic.png" 
       }
       
     ]
