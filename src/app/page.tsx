@@ -1,9 +1,8 @@
-import BlueLine from "@/components/BlueLine";
 import HoverCards from "@/components/HoverCards";
 import IntroSection from "@/components/IntroSection";
 import MovingCards from "@/components/MovingCards";
 import SecondarySection from "@/components/SecondarySection";
-import { SparklesPreview } from "@/components/SparklesPreview";
+import SkillSection from "@/components/SkillSection";
 import { StickyScrollComponent } from "@/components/StickyScrollComponent";
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
         <StickyScrollComponent />
         <MovingCards />
         <HoverCards />
-        <SparklesPreview />
+        <SkillSection />
       </main>
     </>
   );
