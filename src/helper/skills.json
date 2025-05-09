@@ -1,0 +1,118 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "title": "React Js",
+            "slug": "react-js",
+            "description": "JavaScript library for building modern web and mobile UIs.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/react_logo.png"
+        },
+        {
+            "id": 2,
+            "title": "Next Js",
+            "slug": "next-js",
+            "description": "React framework for building fast, SEO-friendly fullstack web apps.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/nextjs-logo.png"
+        },
+        {
+            "id": 3,
+            "title": "Node Js",
+            "slug": "node-js",
+            "description": "Runtime for building fast, scalable server-side applications.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/Node_logo.png"
+        },
+        {
+            "id": 4,
+            "title": "Javascript",
+            "slug": "javascript",
+            "description": "Scripting language for dynamic web pages and applications.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/JavaScript-logo.png"
+        },
+        {
+            "id": 5,
+            "title": "TypeScript",
+            "slug": "typeScript",
+            "description": "Typed superset of JavaScript for safer, scalable coding.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/typescript_logo.png"
+        },
+        {
+            "id": 6,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        },
+        {
+            "id": 7,
+            "title": "Express Js",
+            "slug": "express-js",
+            "description": "Fast, minimal web framework for Node.js backend APIs.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/express-logo.png"
+        },
+        
+        {
+            "id": 7,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        },
+        {
+            "id": 6,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        },
+        {
+            "id": 6,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        },
+        {
+            "id": 6,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        },
+        {
+            "id": 6,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        },
+        {
+            "id": 6,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        },
+        {
+            "id": 6,
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "description": "NoSQL database for flexible, scalable, document storage.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/MongoDB_logo.png"
+        }
+
+    ]
+}

@@ -27,7 +27,7 @@ function SecondarySection() {
           <h2 className=" text-base text-teal-600 font-semibold tracking-wide uppercase">
             FEATURED PROJECTS
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-normal text-white sm:text-4xl">
             Checkout My Work
           </p>
         </div>

@@ -1,13 +1,45 @@
+"use client";
+
 import { GlowingCards } from "./GlowingCards";
+import { skills as SkillList } from "@/helper/skills.json";
+import SkillPayload from "@/models/skillpayload";
+import { useState } from "react";
 
 function SkillSection() {
+  const [isall, setIsall] = useState(false);
+  const tooggleSkills = () => {
+    setIsall(!isall);
+  };
+
   return (
-    <div className="w-full h-[40rem] flex ">
-      <div className=" w-full p-2 flex  gap-3">
-        <GlowingCards />
-        <GlowingCards />
-        <GlowingCards />
-        <GlowingCards />
+    <div className="w-full min-h-[35rem] h-auto p-5 flex-col justify-center">
+      <h1 className="text-center mt-2 mb-7 text-3xl leading-8 font-extrabold tracking-normal text-white sm:text-4xl">
+        My Core Skills
+      </h1>
+      <div className=" w-full size-fit   flex flex-row  gap-3 flex-wrap">
+        {SkillList.map((item: SkillPayload, index) => {
+          return (
+            item.isFeatured && <GlowingCards key={index * 111} payload={item} />
+          );
+        })}
+
+        {isall &&
+          SkillList.map((item: SkillPayload, index) => {
+            return (
+              !item.isFeatured && (
+                <GlowingCards key={index * 111} payload={item} />
+              )
+            );
+          })}
+      </div>
+
+      <div className=" mt-20 w-full flex justify-center">
+        <div
+          className=" w-28 cursor-pointer text-center  px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
+          onClick={tooggleSkills}
+        >
+          {isall ? "See Less" : "View All"}
+        </div>
       </div>
     </div>
   );
