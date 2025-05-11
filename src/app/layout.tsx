@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import ResizableNavBar from "@/components/ResizableNavBar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({
           <ResizableNavBar />
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );

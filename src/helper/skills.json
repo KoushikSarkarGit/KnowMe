@@ -56,62 +56,78 @@
             "isFeatured": true,
             "image": "/Skill_Logo/express-logo.png"
         },
-        
-        {
-            "id": 7,
-            "title": "MongoDB",
-            "slug": "mongodb",
-            "description": "NoSQL database for flexible, scalable, document storage.",
-            "isFeatured": false,
-            "image": "/Skill_Logo/MongoDB_logo.png"
+         {
+            "id": 8,
+            "title": "Java",
+            "slug": "Java",
+            "description": "Versatile language for building cross-platform applications.",
+            "isFeatured": true,
+            "image": "/Skill_Logo/java-logo.png"
         },
         {
-            "id": 6,
-            "title": "MongoDB",
-            "slug": "mongodb",
-            "description": "NoSQL database for flexible, scalable, document storage.",
+            "id": 9,
+            "title": "Mongoose ODM",
+            "slug": "mongoose-odm",
+            "description": "ODM library for managing MongoDB data in Node.js apps.",
             "isFeatured": false,
-            "image": "/Skill_Logo/MongoDB_logo.png"
+            "image": "/Skill_Logo/mongoose-logo.png"
+        },
+       
+        {
+            "id": 10,
+            "title": "HTML",
+            "slug": "html",
+            "description": "Standard markup language for structuring web pages.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/html-logo.png"
         },
         {
-            "id": 6,
-            "title": "MongoDB",
-            "slug": "mongodb",
-            "description": "NoSQL database for flexible, scalable, document storage.",
+            "id": 11,
+            "title": "CSS",
+            "slug": "css",
+            "description": "Style sheet language for designing beautiful web pages.",
             "isFeatured": false,
-            "image": "/Skill_Logo/MongoDB_logo.png"
+            "image": "/Skill_Logo/css-logo.png"
         },
         {
-            "id": 6,
-            "title": "MongoDB",
-            "slug": "mongodb",
-            "description": "NoSQL database for flexible, scalable, document storage.",
+            "id": 12,
+            "title": "Mendix",
+            "slug": "mendix",
+            "description": "Low-code platform for building enterprise web and mobile apps.",
             "isFeatured": false,
-            "image": "/Skill_Logo/MongoDB_logo.png"
+            "image": "/Skill_Logo/mendix-logo.png"
         },
         {
-            "id": 6,
-            "title": "MongoDB",
-            "slug": "mongodb",
-            "description": "NoSQL database for flexible, scalable, document storage.",
+            "id": 13,
+            "title": "TailWind CSS",
+            "slug": "tailwind-css",
+            "description": "Utility-first CSS framework for fast, responsive designs.",
             "isFeatured": false,
-            "image": "/Skill_Logo/MongoDB_logo.png"
+            "image": "/Skill_Logo/tailwind-logo.png"
         },
         {
-            "id": 6,
-            "title": "MongoDB",
-            "slug": "mongodb",
-            "description": "NoSQL database for flexible, scalable, document storage.",
+            "id": 14,
+            "title": "Spring Boot",
+            "slug": "spring-boot",
+            "description": "Framework for building Java-based backend APIs and services.",
             "isFeatured": false,
-            "image": "/Skill_Logo/MongoDB_logo.png"
+            "image": "/Skill_Logo/spring-boot-logo.png"
         },
         {
-            "id": 6,
-            "title": "MongoDB",
-            "slug": "mongodb",
-            "description": "NoSQL database for flexible, scalable, document storage.",
+            "id": 15,
+            "title": "MySQL",
+            "slug": "mysql",
+            "description": "Relational database system for structured data management.",
             "isFeatured": false,
-            "image": "/Skill_Logo/MongoDB_logo.png"
+            "image": "/Skill_Logo/mysql-logo.png"
+        },
+        {
+            "id": 16,
+            "title": "GIT",
+            "slug": "git",
+            "description": "Version control system for tracking and managing code changes.",
+            "isFeatured": false,
+            "image": "/Skill_Logo/git-logo.png"
         }
 
     ]
