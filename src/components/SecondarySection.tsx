@@ -16,7 +16,7 @@ interface Project {
 }
 
 function SecondarySection() {
-  const featuredProjects = courseData.courses.filter(
+  const featuredProjects = courseData.featuredprojects.filter(
     (course: Project) => course.isFeatured
   );
 

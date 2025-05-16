@@ -1,5 +1,5 @@
 {
-    "featuredprojects": [
+    "Projects": [
       {
         "id": 1,
         "title": "Connectify",
@@ -27,7 +27,7 @@
         "title": "RateMe",
         "slug": "advanced-vocal-techniques",
         "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-        "isLive": false,
+        "isLive": true,
         "owner": "Koushik Sarkar",
         "isFeatured": true,
         "image": "/dummypic.png" 
