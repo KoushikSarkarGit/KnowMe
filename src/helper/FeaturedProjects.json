@@ -9,7 +9,9 @@
         "owner": "Koushik Sarkar",
         "isFeatured": true,
         "image": "/connectifypic.png", 
-        "livelink": "https://connectify-fztn.onrender.com/"
+        "livelink": "https://connectify-fztn.onrender.com/",
+        "githubrepo":"https://github.com/KoushikSarkarGit/Social-Media-And-Chatting-App",
+        "skillsUsed": ["React Js", "Javascript", "Node Js", "Express Js", "MongoDB", "HTML", "CSS", "Mongoose", "Bootstrap", "Tailwind CSS" ]
       },
       {
         "id": 2,
@@ -20,17 +22,21 @@
         "owner": "Koushik Sarkar",
         "isFeatured": true,
         "image": "/jeetsmarketpic.png",
-        "livelink": "https://jeets-market.onrender.com/" 
+        "livelink": "https://jeets-market.onrender.com/",
+        "githubrepo":"https://github.com/KoushikSarkarGit/seperate-frontend-mern",
+        "skillsUsed": ["React Js", "Javascript", "Node Js", "Express Js", "MongoDB", "HTML", "CSS", "Mongoose", "Bootstrap", "Tailwind CSS" ] 
       },
       {
         "id": 3,
         "title": "RateMe",
         "slug": "advanced-vocal-techniques",
         "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-        "isLive": false,
+        "isLive": true,
         "owner": "Koushik Sarkar",
         "isFeatured": true,
-        "image": "/dummypic.png" 
+        "image": "/dummypic.png",
+        "githubrepo":"https://github.com/KoushikSarkarGit",
+        "skillsUsed": ["React Js", "Javascript", "Node Js", "Express Js", "MongoDB", "HTML", "CSS", "Mongoose", "Bootstrap", "Tailwind CSS" ]
       }
       
     ]

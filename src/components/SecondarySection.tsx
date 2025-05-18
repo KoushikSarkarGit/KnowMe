@@ -3,17 +3,7 @@ import Link from "next/link";
 import courseData from "../helper/FeaturedProjects.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { Button } from "./ui/moving-border";
-interface Project {
-  id: number;
-  title: string;
-  slug: string;
-  description: string;
-  isLive: boolean;
-  owner: string;
-  isFeatured: boolean;
-  livelink?: string;
-  image?: string;
-}
+import Project from "@/models/Project";
 
 function SecondarySection() {
   const featuredProjects = courseData.featuredprojects.filter(

@@ -1,18 +1,16 @@
-"use client"
+"use client";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
+import Link from "next/link";
+import Project from "@/models/Project";
 
 import { useState } from "react";
 
 export const HoverEffect = ({
-  items,
+  projects,
   className,
 }: {
-  items: {
-    title: string;
-    description: string;
-    link: string;
-  }[];
+  projects: Project[];
   className?: string;
 }) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -20,14 +18,14 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid gap-3 grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
         className
       )}
     >
-      {items.map((item, idx) => (
-        <a
-          href={item?.link}
-          key={item?.link}
+      {projects.map((item, idx) => (
+        <Link
+          href={`projects/${item?.id.toString()}`}
+          key={item?.id}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -50,10 +48,11 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
+            <CardImage imgsrc={item.image} />
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
-        </a>
+        </Link>
       ))}
     </div>
   );
@@ -74,11 +73,28 @@ export const Card = ({
       )}
     >
       <div className="relative z-50">
-        <div className="p-4">{children}</div>
+        <div className="p-3">{children}</div>
       </div>
     </div>
   );
 };
+
+export const CardImage = ({ imgsrc }: { imgsrc?: string }) => {
+  return (
+    imgsrc && (
+      <div className="phover flex justify-center items-center ">
+        <img
+          className=" rounded-[18px]"
+          src={imgsrc}
+          width={400}
+          height={225}
+          alt="project image"
+        />
+      </div>
+    )
+  );
+};
+
 export const CardTitle = ({
   className,
   children,
