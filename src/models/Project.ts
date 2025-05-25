@@ -3,6 +3,7 @@ export default interface Project {
   title: string;
   slug: string;
   description: string;
+  fullDescription: string;
   isLive: boolean;
   owner: string;
   isFeatured: boolean;

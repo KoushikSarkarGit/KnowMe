@@ -15,25 +15,33 @@ export default async function ProjectViewPage({
   );
 
   return (
-    <main className="min-h-screen bg-[#181818] antialiased bg-grid-white/[0.02]">
+    <main className="min-h-screen bg-gray-900 antialiased  bg-grid-white/[0.02]">
       <div className="w-full p-5 md:px-15  py-25 min-h-[40rem] flex flex-col justify-start ">
-        {project && (
+        {project ? (
           <div className="grid grid-cols-14 gap-4 ">
             <div className="col-span-14 md:col-span-6   ">
-              <ThreedCard imgsrc={project.image} />
+              <ThreedCard imgsrc={project.image} projectname={project.title} />
             </div>
-            <div className="col-span-14 md:col-span-8 py-20 px-2 ">
-              <h1 className="text-4xl text-center pb-5">{project.title}</h1>
-              <div className="pb-5">{project.description}</div>
-              <div className="pb-5">
-                {project.skillsUsed
-                  .map((skill) => {
-                    return `${skill}`;
-                  })
-                  .join(" , ")}
+            <div className="col-span-14 md:col-span-8 py-20 pr-2 ">
+              <h1 className="text-4xl  text-center font-bold pb-7">
+                {project.title}
+              </h1>
+              <div className="pb-7 text-lg">{project.description}</div>
+              <div className="pb-10 text-lg">{project.fullDescription}</div>
+              <div className="pb-15 flex gap-2">
+                <p className=" font-bold break-normal whitespace-nowrap">
+                  Skills Used :
+                </p>
+                <p className="color-[#dacbd9] italic">
+                  {project.skillsUsed
+                    .map((skill) => {
+                      return `${skill}`;
+                    })
+                    .join(" , ")}
+                </p>
               </div>
 
-              <div className=" w-full md:w-3/4 flex flex-row justify-between">
+              <div className=" w-full px-5 flex flex-row justify-around">
                 <Link href={project.livelink || ""} target="_blank">
                   <Button
                     borderRadius="1.75rem"
@@ -53,6 +61,10 @@ export default async function ProjectViewPage({
                 </Link>
               </div>
             </div>
+          </div>
+        ) : (
+          <div className="w-full h-[30rem] flex justify-center items-center">
+            <h1 className="text-2xl dark:color-white"> No Page Found</h1>
           </div>
         )}
       </div>
