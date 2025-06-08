@@ -1,6 +1,5 @@
-import HoverCards from "@/components/HoverCards";
 import IntroSection from "@/components/IntroSection";
-import MovingCards from "@/components/MovingCards";
+
 import SecondarySection from "@/components/SecondarySection";
 import SkillSection from "@/components/SkillSection";
 import { StickyScrollComponent } from "@/components/StickyScrollComponent";
@@ -14,7 +13,7 @@ export default function Home() {
         <SkillSection />
         <SecondarySection />
         {/* <StickyScrollComponent /> */}
-        {/* <MovingCards />  */}
+
         <TimelineComponent />
       </main>
     </>
