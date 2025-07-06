@@ -1,5 +1,4 @@
 import { Hero_Colorfull_Component } from "@/components/Hero_Colorfull_Component";
-import { Text_Generator_Component } from "@/components/Text_Generator_Component";
 
 export default function AboutMe() {
   return (
