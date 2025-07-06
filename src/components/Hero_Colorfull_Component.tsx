@@ -16,19 +16,19 @@ export function Hero_Colorfull_Component() {
 
   let LeetcodeData = {
     id: 111,
-    title: "Leetcode",
+    title: "Visit Leetcode Profile",
     slug: "leetcode",
     description: "leetcode description",
     isFeatured: true,
-    image: "/Skill_Logo/dsa-logo.png",
+    image: "/leetcodeSc.png",
   };
   let GithubData = {
     id: 111,
-    title: "Github",
+    title: "Visit Github Profile",
     slug: "Github",
     description: "Github description",
     isFeatured: true,
-    image: "/Skill_Logo/dsa-logo.png",
+    image: "/leetcodeSc.png",
   };
 
   return (
@@ -85,7 +85,7 @@ export function Hero_Colorfull_Component() {
         platforms.
       </motion.h1>
 
-      <div className="w-full size-fit   flex flex-row  gap-3 flex-wrap">
+      <div className="w-full size-fit   flex flex-row   flex-wrap md:flex-nowrap  md: gap-8 px-5 ">
         <AboutMeGlowingCards payload={LeetcodeData} />
         <AboutMeGlowingCards payload={GithubData} />
       </div>
