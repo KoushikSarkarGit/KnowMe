@@ -141,7 +141,7 @@
             "id": 18,
             "title": "Data Structures and Algorithms",
             "slug": "data-structures-and-algorithms",
-            "description": "Core concepts for writing efficient and optimized code.",
+            "description": "Write efficient and optimized code.",
             "isFeatured": false,
             "image": "/Skill_Logo/dsa-logo.png"
         }

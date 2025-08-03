@@ -54,7 +54,7 @@ export function TimelineComponent() {
       company: "PWC India",
       post: "Associate",
       jobrole: "Full stack developer",
-      content: <div>Got a promoted to Associate at PWC India! 🥳🥳</div>,
+      content: <div>Got promoted to Associate at PWC India! 🥳🥳</div>,
     },
     {
       title: "",

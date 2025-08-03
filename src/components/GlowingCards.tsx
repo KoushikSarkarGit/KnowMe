@@ -10,7 +10,7 @@ interface GlowingCardsProps {
 export function GlowingCards({ payload }: GlowingCardsProps) {
   return (
     <div
-      className={`relative   md: w-90  h-[7rem] rounded-2xl  p-2 md:rounded-2xl md:p-2`}
+      className={`relative my-1   md: w-90  h-[7rem] rounded-2xl  p-2 md:rounded-2xl md:p-2`}
     >
       <GlowingEffect
         spread={40}
