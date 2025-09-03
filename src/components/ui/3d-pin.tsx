@@ -3,24 +3,27 @@ import React, { useState } from "react";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import toast, { Toaster } from "react-hot-toast";
+// import { useRouter } from "next/router";
 
 export const PinContainer = ({
   children,
   title,
   href,
+  iscopy,
   className,
   containerClassName,
 }: {
   children: React.ReactNode;
   title?: string;
   href?: string;
-  isCopy?: boolean;
+  iscopy?: boolean;
   className?: string;
   containerClassName?: string;
 }) => {
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
   );
+  // const router = useRouter();
 
   const onMouseEnter = () => {
     setTransform("translate(-50%,-50%) rotateX(40deg) scale(0.8)");
@@ -30,7 +33,12 @@ export const PinContainer = ({
   };
 
   const onclickhandler = () => {
-    toast.success("Copied to clipboard");
+    if (iscopy || false) {
+      navigator.clipboard.writeText(title || "");
+      toast.success("Copied to clipboard");
+    } else {
+      window.open(href, "_blank");
+    }
   };
 
   return (

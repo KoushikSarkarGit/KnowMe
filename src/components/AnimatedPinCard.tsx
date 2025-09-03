@@ -6,16 +6,18 @@ type AnimatedPinCardProps = {
   href: string;
   image: string;
   platform: string;
+  iscopy: boolean;
 };
 export function AnimatedPinCard({
   title,
   href,
   image,
   platform,
+  iscopy,
 }: AnimatedPinCardProps) {
   return (
     <div className="  flex items-center justify-center ">
-      <PinContainer title={title} href={href}>
+      <PinContainer title={title} href={href} iscopy={iscopy}>
         <div
           className={`relative  md: w-90  h-[6rem] rounded-2xl   md:rounded-2xl `}
         >
