@@ -24,6 +24,7 @@ export default function RootLayout({
           <ResizableNavBar />
         </div>
         {children}
+
         <Footer />
       </body>
     </html>
